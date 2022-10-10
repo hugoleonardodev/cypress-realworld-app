@@ -14,5 +14,6 @@ describe("Cypress Studio Demo", function () {
   });
   it("create new bank account", function () {
     // Extend test with Cypress Studio
+    cy.wait(10000);
   });
 });
